@@ -85,15 +85,16 @@ def on_new_client(clientsocket, addr, timer, option):
             return
 
 def ordenar_por_percentual():
+    rank = []
+
     with open("ranking.txt", "r") as file:
         linhas = file.readlines()
 
-    rank = []
     for linha in linhas:
         name, percent = linha.strip().split(":")
         rank.append((name, float(percent))) 
 
-    sort = sorted(rank, key=lambda x: x[1], reverse=True)
+    sort = sorted(rank, key=lambda percent: percent[1], reverse=True)
 
     with open("ranking.txt", "w") as file:
         for name, percent in sort:
