@@ -11,7 +11,7 @@ Lado servidor:
 3 - Diga o tempo em segundos que o servidor deve esperar antes de enviar uma resposta ao cliente.
 
 Lado cliente: 
-4 - Inicie, em outra janela da sua IDE, a aplicação cliente (A conecção com o servidor será feita automaticamente).
+4 - Inicie, em outra janela da sua IDE, a aplicação cliente (A conexão com o servidor será feita automaticamente).
 5 - Diga seu nome para fins de registros.
 6 - Faça uma pergunta.
 
@@ -22,7 +22,7 @@ Lado cliente:
 Ao receber a resposta, deve informar quem acredita que respondeu a pergunta, um humano ou uma máquina.
 
 Faça quantas perguntas quiser.
-Para encerrar a conecção com o servidor, digite a palavra "bye" no campo de realizar pergunta.
-Ao finalizar a conecção, o resgistro de perguntas e resposta e o ranking de acertos serão atualizados.
+Para encerrar a conexão com o servidor, digite a palavra "bye" no campo de realizar pergunta no lado do cliente.
+Ao finalizar a conexão, o resgistro de perguntas e resposta e o ranking de acertos serão atualizados.
 
 
